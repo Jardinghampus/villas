@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useMemo } from "react";
-import { Home, Building2, Castle, X } from "lucide-react";
+import { Home, Building2, Castle } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface FilterPanelProps {
