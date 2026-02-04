@@ -90,7 +90,7 @@ export default function ShowcasePage() {
             priceType="month"
             isFavorite={favorites.includes("1")}
             onFavoriteToggle={toggleFavorite}
-            onClick={(id) => setShowFloorplan(true)}
+            onClick={() => setShowFloorplan(true)}
           />
 
           {/* Default Card 2 */}
