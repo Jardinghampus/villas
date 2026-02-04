@@ -8,7 +8,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "setup:notion": "ts-node scripts/setup-notion-db.ts",
+    "setup:notion:seed": "ts-node scripts/setup-notion-db.ts --seed"
   },
   "dependencies": {
     "@notionhq/client": "^2.2.14",
@@ -44,6 +46,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.11.25",
+    "ts-node": "^10.9.2",
     "@types/react": "^18.2.64",
     "@types/react-dom": "^18.2.21",
     "autoprefixer": "^10.4.18",
