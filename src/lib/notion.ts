@@ -91,7 +91,7 @@ function getUrlValue(prop: NotionPropertyValue | undefined): string {
   return prop.url ?? "";
 }
 
-function getCheckboxValue(prop: NotionPropertyValue | undefined): boolean {
+function _getCheckboxValue(prop: NotionPropertyValue | undefined): boolean {
   if (!prop || prop.type !== "checkbox") return false;
   return prop.checkbox;
 }

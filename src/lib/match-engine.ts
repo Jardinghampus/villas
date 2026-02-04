@@ -369,9 +369,9 @@ function calculateMarketFitScore(property: Property, notes: string[]): number {
 
 function generateExplanation(
   score: MatchScore,
-  customer: Customer,
+  _customer: Customer,
   property: Property,
-  notes: string[]
+  _notes: string[]
 ): MatchExplanation {
   let summary: string;
 
