@@ -91,11 +91,6 @@ function getUrlValue(prop: NotionPropertyValue | undefined): string {
   return prop.url ?? "";
 }
 
-function _getCheckboxValue(prop: NotionPropertyValue | undefined): boolean {
-  if (!prop || prop.type !== "checkbox") return false;
-  return prop.checkbox;
-}
-
 function getDateValue(prop: NotionPropertyValue | undefined): string {
   if (!prop || prop.type !== "date" || !prop.date) return "";
   return prop.date.start;
