@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DubaiVille - Real Estate Intelligence Platform 🏠
 
 > AI-powered matchmaking for Dubai's luxury villa market. Transform your real estate business with intelligent lead generation, affordability analysis, and predictive matching.
@@ -588,3 +589,6 @@ Built with:
 
 Get started now with the **Quick Start** section above! 🚀
 
+=======
+# villas
+>>>>>>> 45dee72aeb2b98641ce74537f1fbb67835c1e22e
