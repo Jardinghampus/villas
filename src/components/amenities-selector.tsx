@@ -140,7 +140,6 @@ export function AmenitiesSelector({
             results={searchResults}
             selected={selected}
             onToggle={toggleAmenity}
-            onClose={() => setSearchOpen(false)}
           />
         </div>
       )}
@@ -177,7 +176,6 @@ interface SearchDropdownProps {
   results: Amenity[];
   selected: string[];
   onToggle: (id: string) => void;
-  onClose: () => void;
 }
 
 function SearchDropdown({
@@ -186,7 +184,6 @@ function SearchDropdown({
   results,
   selected,
   onToggle,
-  onClose,
 }: SearchDropdownProps) {
   return (
     <div className="bg-gray-900 rounded-2xl overflow-hidden">
