@@ -264,7 +264,6 @@ export function PropertyCard({
 export function PropertyCardCompact({
   id,
   title,
-  location,
   images,
   bedrooms,
   bathrooms,

@@ -18,7 +18,6 @@ interface FloorplanModalProps {
 export function FloorplanModal({
   isOpen,
   onClose,
-  propertyName,
   bedrooms,
   bathrooms,
   sizeSqft,

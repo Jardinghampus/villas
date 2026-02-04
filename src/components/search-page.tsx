@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { SlidersHorizontal, X } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { PropertyCard, PropertyCardCompact } from "./property-card";
+import { PropertyCardCompact } from "./property-card";
 import { FilterPanel, FilterState } from "./filter-panel";
 import { AmenitiesSelector } from "./amenities-selector";
 import { BottomNav, NavTab } from "./bottom-nav";
